@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/text-operation',
+    name: 'PAGE-01-01',
+    component: () => import('../components/pages/text-operation/Index.vue')
   }
 ]
 

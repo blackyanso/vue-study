@@ -3,6 +3,9 @@
     <div id="nav">
       <router-link to="/">
         Home
+      </router-link> |
+      <router-link to="/text-operation">
+        テキスト操作
       </router-link>
     </div>
     <router-view />
