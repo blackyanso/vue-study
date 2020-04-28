@@ -6,6 +6,9 @@
       </router-link> |
       <router-link to="/text-operation">
         テキスト操作
+      </router-link> |
+      <router-link to="/api-get">
+        外部API操作
       </router-link>
     </div>
     <router-view />

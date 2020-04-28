@@ -1,5 +1,11 @@
 <template>
   <section class="textOperation">
+    <h2>テキスト操作テスト</h2>
+    <div>
+      この画面ではテキストの追加／参照を行います。<br>
+      テキスト入力エリアでは行を追加し自由なテキスト情報を入力可能です。<br>
+      またテキスト出力エリアでは、入力エリアの行を指定して入力内容を参照することが可能です。
+    </div>
     <h3>テキスト出力エリア</h3>
     <IndexPickupText
       :select-index="selectIndex"
@@ -64,6 +70,9 @@ export default {
 
 <style lang="scss" scoped>
 .textOperation {
+  h3 {
+    margin-top: 50px;
+  }
   .button {
     display: inline-block;
     padding: 0.3em 1em;
