@@ -9,6 +9,9 @@
       </router-link> |
       <router-link to="/api-get">
         外部API操作
+      </router-link> |
+      <router-link to="/vuex-store">
+        Vuex.Store操作
       </router-link>
     </div>
     <router-view />

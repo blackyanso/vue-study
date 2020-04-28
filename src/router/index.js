@@ -19,6 +19,11 @@ const routes = [
     path: '/api-get',
     name: 'PAGE-02-01',
     component: () => import('../components/pages/api-get/Index.vue')
+  },
+  {
+    path: '/vuex-store',
+    name: 'PAGE-03-01',
+    component: () => import('../components/pages/vuex-store/Index.vue')
   }
 ]
 
