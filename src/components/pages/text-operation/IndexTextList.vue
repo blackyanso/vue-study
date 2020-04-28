@@ -15,7 +15,7 @@
 <script>
 export default {
   components: {
-    IndexInputListText: () => import('./IndexInputListText.vue')
+    IndexInputListText: () => import('./IndexTextListItem.vue')
   },
   props: {
     inputTexts: {

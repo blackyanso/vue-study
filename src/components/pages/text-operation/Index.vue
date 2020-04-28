@@ -25,8 +25,8 @@
 <script>
 export default {
   components: {
-    IndexPickupText: () => import('./IndexPickupText.vue'),
-    IndexInputTextList: () => import('./IndexInputList.vue')
+    IndexPickupText: () => import('./IndexSelectText.vue'),
+    IndexInputTextList: () => import('./IndexTextList.vue')
   },
   data() {
     return {
