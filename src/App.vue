@@ -12,12 +12,14 @@
       </router-link> |
       <router-link to="/vuex-store">
         Vuex.Store操作
+      </router-link> |
+      <router-link to="/user-info">
+        ユーザー情報（ログイン必須）
       </router-link>
     </div>
     <router-view />
   </div>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
