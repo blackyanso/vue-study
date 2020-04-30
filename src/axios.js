@@ -2,7 +2,10 @@ import axios from 'axios'
 
 axios.defaults.withCredentials = true
 
+const BASE_URL = process.env.VUE_APP_AXIOS_BASE_URL
+
 const http = axios.create({
+  baseURL: BASE_URL,
   timeoutSeconds: 5
 })
 

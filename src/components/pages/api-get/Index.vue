@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     getZipInfo() {
-      axios.get('http://localhost:8080/api/search', {
+      axios.get('/api/search', {
         params: {
           // ここにクエリパラメータを指定する
           zipcode: this.zipCode,

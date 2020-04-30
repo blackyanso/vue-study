@@ -4,6 +4,7 @@ module.exports = {
   publicPath: './',
   outputDir: path.resolve(__dirname, 'docs'),
   devServer: {
+    disableHostCheck: true,
     proxy: {
       '^/api': {
         // 学習時は以下のAPIに簡易接続して検証する.

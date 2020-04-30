@@ -50,7 +50,7 @@ export default new Vuex.Store({
     },
     async userLogin({ commit }, payload) {
       const { nickname, zipCode } = payload
-      const res = await axios.get('http://localhost:8080/api/search', {
+      const res = await axios.get('/api/search', {
         params: {
           // ここにクエリパラメータを指定する
           zipcode: zipCode,
