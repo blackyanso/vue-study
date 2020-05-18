@@ -62,6 +62,8 @@ export default {
         if (response.data) {
           this.response = response.data
         }
+      }).catch(() => {
+        this.response.results = null
       })
     }
   }

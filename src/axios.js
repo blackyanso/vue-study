@@ -25,7 +25,7 @@ http.interceptors.response.use(
     if (error.response.status === 404) {
       // 共通的にステータスコードでハンドリングしたい場合はここに追加.
     }
-    return error
+    return Promise.reject(error)
   }
 )
 export default http
