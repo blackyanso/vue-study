@@ -77,6 +77,14 @@ export default {
       margin-top: 15px;
       margin-left: 20px;
     }
+    .button:disabled {
+      color: #cacfd0;
+      border: solid 2px #9c9e9e;
+      &:hover {
+        background: #898a8b;
+        color: white;
+      }
+    }
     .button:hover {
       background: #67c5ff;
       color: white;
